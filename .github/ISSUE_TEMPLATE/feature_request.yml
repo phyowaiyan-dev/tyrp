@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest an idea or improvement for TYRP
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the idea. Please share the problem you want to solve and the outcome you want to see.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What challenge are you trying to solve?
+      placeholder: Describe the problem here.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like TYRP to do?
+      placeholder: Describe the feature here.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered other approaches?
+      placeholder: Optional
+

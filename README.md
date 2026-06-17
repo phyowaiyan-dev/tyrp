@@ -1,6 +1,6 @@
 # TYRP
 
-A batteries-included CLI for Flutter + Riverpod.
+A batteries-included CLI for Flutter and Riverpod.
 
 ## Features
 
@@ -11,37 +11,38 @@ A batteries-included CLI for Flutter + Riverpod.
 - Generate providers
 - Generate repositories
 - Generate services
-- Mason-powered templates
+- Use Mason-powered templates
 
 ## Installation
 
 ```bash
 dart pub global activate tyrp
+```
 
 ## Usage
+
+```bash
 tyrp create project my_app
-
 tyrp create page home
-
 tyrp create feature auth
-
 tyrp init
+```
 
 ## Roadmap
-* Project Generator
-* Page Generator
-* Feature Generator
-* Riverpod Provider Generator
-* GoRouter Generator
-* Freezed Support
-* Build Runner Integration
 
-### Long-Term Vision
+- Project generator
+- Page generator
+- Feature generator
+- Riverpod provider generator
+- GoRouter generator
+- Freezed support
+- Build Runner integration
 
-If you execute well, TYRP can become:
+## Long-Term Vision
+
+If TYRP continues to grow well, it can become:
 
 ```text
-
 Flutter + Riverpod ecosystem
 
 ├── tyrp (cli)
@@ -51,4 +52,4 @@ Flutter + Riverpod ecosystem
 ├── tyrp_templates
 ├── tyrp_architecture
 └── VSCode Extension
-
+```
